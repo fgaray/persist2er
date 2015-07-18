@@ -13,10 +13,15 @@ name:                persist2er
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:            Transform persist's quasi-quoted syntax into ER format
+synopsis:            Transforms persist's quasi-quoted syntax into ER format
 
 -- A longer description of the package.
--- description:         
+description:         This is a simple program to transform persist's
+                     quasi-quoted syntax, like the used in yesod, into ER format.
+                     You can use the <https://hackage.haskell.org/package/erd
+                     erd> to generate a diagram from this representation.
+
+
 
 -- The license under which the package is released.
 license:             GPL-3
@@ -45,6 +50,9 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+source-repository head
+  type:     git
+  location: git@github.com:fgaray/persist2er.git
 
 executable persist2er
   -- .hs or .lhs file containing the Main module.
