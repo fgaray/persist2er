@@ -10,7 +10,7 @@ name:                persist2er
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             0.1.0.1
 
 -- A short (one-line) description of the package.
 synopsis:            Transforms persist's quasi-quoted syntax into ER format
@@ -18,8 +18,8 @@ synopsis:            Transforms persist's quasi-quoted syntax into ER format
 -- A longer description of the package.
 description:         This is a simple program to transform persist's
                      quasi-quoted syntax, like the used in yesod, into ER format.
-                     You can use the <https://hackage.haskell.org/package/erd
-                     erd> to generate a diagram from this representation.
+                     You can use the <https://hackage.haskell.org/package/erd erd> 
+                     to generate a diagram from this representation.
 
 
 
